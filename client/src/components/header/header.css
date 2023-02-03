@@ -1,0 +1,34 @@
+.common-header {
+    font-family: Tahoma, serif;
+    font-size: 1.2rem;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    min-width: 1200px;
+}
+
+.header-item {
+    flex: 1;
+}
+
+.div-button>button {
+    margin-left: 85%;
+    margin-top: 15px;
+    height: 20px;
+    width: 80px;
+    border: antiquewhite solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px 1px #FFF;
+}
+
+.div-button>button:active {
+    background-color: gray;
+}
+
+.common-header>h1 {
+    padding-left: 25px;
+    text-align: left;
+    color: antiquewhite;
+}
